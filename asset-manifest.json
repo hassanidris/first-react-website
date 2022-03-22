@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/miljonbemanning-react-website/static/css/main.54f6b74f.css",
+    "main.js": "/miljonbemanning-react-website/static/js/main.b60032f4.js",
+    "static/media/intro.mp4": "/miljonbemanning-react-website/static/media/intro.87b6b296c5e3ab2981c6.mp4",
+    "static/media/girl.png": "/miljonbemanning-react-website/static/media/girl.2465391dbf8c249d8dec.png",
+    "static/media/opportunitiesImg.png": "/miljonbemanning-react-website/static/media/opportunitiesImg.99d0549dd6c01458ffd4.png",
+    "static/media/imgHotel.png": "/miljonbemanning-react-website/static/media/imgHotel.fcd4a619af634bc3c4c3.png",
+    "static/media/imgConstruction.png": "/miljonbemanning-react-website/static/media/imgConstruction.20e161899ed7e2947d22.png",
+    "static/media/imgIT.png": "/miljonbemanning-react-website/static/media/imgIT.d9481f3c146946b271bf.png",
+    "static/media/imglogistic.png": "/miljonbemanning-react-website/static/media/imglogistic.b58d24f1b8920a6e77d7.png",
+    "static/media/imgPedagogy.png": "/miljonbemanning-react-website/static/media/imgPedagogy.d2a8f62a420e6083b519.png",
+    "static/media/aboutImg.png": "/miljonbemanning-react-website/static/media/aboutImg.558d742ad5195294f457.png",
+    "static/media/imgAdmin.png": "/miljonbemanning-react-website/static/media/imgAdmin.11c435000b561df5467a.png",
+    "static/media/imgSales.png": "/miljonbemanning-react-website/static/media/imgSales.e1a4208089752f2acdd5.png",
+    "static/media/bnrBG.png": "/miljonbemanning-react-website/static/media/bnrBG.2e941076900dc6a00f26.png",
+    "static/media/slick.svg": "/miljonbemanning-react-website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/miljonbemanning-react-website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/miljonbemanning-react-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/miljonbemanning-react-website/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/miljonbemanning-react-website/index.html",
+    "main.54f6b74f.css.map": "/miljonbemanning-react-website/static/css/main.54f6b74f.css.map",
+    "main.b60032f4.js.map": "/miljonbemanning-react-website/static/js/main.b60032f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54f6b74f.css",
+    "static/js/main.b60032f4.js"
+  ]
+}
