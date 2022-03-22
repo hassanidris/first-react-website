@@ -1,0 +1,62 @@
+.mb__partners {
+    background-color: var(--color-red);
+    flex-direction: column;
+
+   
+
+}
+
+.logo__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+
+   &--inner{
+        width: 90%;
+        padding: 5px;
+        display: block;
+        
+        &--card{
+            padding: 5px 0;
+            max-width: 250px;
+            margin: 0 1rem;
+            transition: all .1s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    
+            &:hover{
+                transform: scale(1.02);
+                cursor: pointer;
+            }
+      
+           
+        }
+    }
+        
+}
+    
+/* -------------------------------------------------------------- */
+/* SLICK REACT CAROUSEL */
+/* -------------------------------------------------------------- */
+.slick-next,
+.slick-prev {
+    padding: 5px;
+    width: 2vw;
+    height: 2vw;
+    background-color: var(--color-red);
+    z-index: 99 !important;
+    cursor: pointer;
+    top: 40%;
+    
+    &:hover{
+        background-color: var(--color-red);
+        transform: scale(1.02);
+        cursor: pointer;
+        top: 40%;
+    }
+}

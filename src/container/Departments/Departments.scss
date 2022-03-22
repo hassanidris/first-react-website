@@ -1,0 +1,86 @@
+.mb__departments {
+    flex-direction: column;
+
+    &-info {
+        padding: 1rem .2rem;
+        background-color: var(--color-white);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        // border: 1px solid black;
+        box-shadow: var(--color-red);
+        margin-top: -2rem;
+    }
+
+    &-icon {
+        margin-bottom: 1.5rem;
+        filter: invert(26%) sepia(55%) saturate(3561%) hue-rotate(352deg) brightness(95%) contrast(95%);
+
+        img {
+            width: 80%;
+        }
+    }
+
+    &-title {
+        font-family: var(--font-base);
+        font-size: 16px;
+        color: var(--color-red);
+    }
+}
+
+.card__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+   &--inner{
+        width: 90%;
+        padding: 5px;
+        display: block;
+        
+        &--card{
+            padding: 5px 0;
+            max-width: 250px;
+            margin: 0 1rem;
+            transition: all .1s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    
+            &:hover{
+                transform: scale(1.02);
+                cursor: pointer;
+            }
+      
+           
+        }
+    }
+        
+}
+    
+/* -------------------------------------------------------------- */
+/* SLICK REACT CAROUSEL */
+/* -------------------------------------------------------------- */
+.slick-next,
+.slick-prev {
+    padding: 5px;
+    width: 2vw;
+    height: 2vw;
+    background-color: var(--color-red);
+    z-index: 99 !important;
+    cursor: pointer;
+    top: 40%;
+    transform: translate(0, 0);
+    
+    &:hover{
+        background-color: var(--color-red);
+        transform: scale(1.02);
+        cursor: pointer;
+        top: 40%;
+    }
+}

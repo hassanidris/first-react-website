@@ -1,0 +1,296 @@
+import images from "./images";
+// import { RiHeart2Line } from 'react-icons/ri';
+// import { BiPieChart, BiSearchAlt } from 'react-icons/bi';
+
+const departments = [
+    {
+        id: '01',
+        title: 'Kontor & Administration',
+        ImgUrl: images.imgAdmin,
+        IcoUrl: images.icoAdmin,
+    },
+    {
+        id: '02',
+        title: 'Hotell & Restaurang',
+        ImgUrl: images.imgHotel,
+        IcoUrl: images.icoHotel,
+    },
+    {
+        id: '03',
+        title: 'Lager & Logistik',
+        ImgUrl: images.imglogistic,
+        IcoUrl: images.icoLogistic,
+    },
+    {
+        id: '04',
+        title: 'Data / IT',
+        ImgUrl: images.imgIT,
+        IcoUrl: images.icoIT,
+    },
+    {
+        id: '05',
+        title: 'Bygg & Installation',
+        ImgUrl: images.imgConstruction,
+        IcoUrl: images.icoConstruction,
+    },
+    {
+        id: '06',
+        title: 'Sälj & Marknad',
+        ImgUrl: images.imgSales,
+        IcoUrl: images.icoSales,
+    },
+    {
+        id: '07',
+        title: 'Pedagogik',
+        ImgUrl: images.imgPedagogy,
+        IcoUrl: images.icoPedagogy,
+    },
+];
+
+const partners = [
+    {
+        id: '01',
+        title: 'Arbetsförmedlingen',
+        ImgUrl: images.prt01,
+    },
+    {
+        id: '02',
+        title: 'Stockholms Stad',
+        ImgUrl: images.prt02,
+    },
+    {
+        id: '03',
+        title: 'tillväxt verket',
+        ImgUrl: images.prt03,
+    },
+    {
+        id: '04',
+        title: 'SAINT GOBAIN',
+        ImgUrl: images.prt04,
+    },
+    {
+        id: '05',
+        title: 'xylem',
+        ImgUrl: images.prt05,
+    },
+    {
+        id: '06',
+        title: 'Painin Internazionale',
+        ImgUrl: images.prt06,
+    },
+    {
+        id: '07',
+        title: 'MatHem.se',
+        ImgUrl: images.prt07,
+    },
+    {
+        id: '08',
+        title: 'KAPI',
+        ImgUrl: images.prt08,
+    },
+    {
+        id: '09',
+        title: 'DATA PATH',
+        ImgUrl: images.prt09,
+    },
+    {
+        id: '10',
+        title: 'Holmquistsign',
+        ImgUrl: images.prt10,
+    },
+    {
+        id: '11',
+        title: 'B',
+        ImgUrl: images.prt11,
+    },
+    {
+        id: '12',
+        title: 'RAMIRENT',
+        ImgUrl: images.prt12,
+    },
+    {
+        id: '13',
+        title: 'Bactiguard',
+        ImgUrl: images.prt13,
+    },
+];
+
+const locations = [
+    {
+        id: '01',
+        title: 'Stockholm, huvudkontoret',
+        address01: 'Albyvägen 3',
+        address02: '145 59 Norsborg',
+        kaNummer: '10068964',
+        latitude: '59.239135429627716', 
+        longitude: '17.844839027057102',
+    },
+    {
+        id: '02',
+        title: 'Stockholm, Bagarmossen',
+        address01: 'Lillåvägen 44',
+        address02: '128 45 Bagarmossen',
+        kaNummer: '10068964',
+        latitude: '59.27693363789741', 
+        longitude: '18.13284528472929',
+    },
+    {
+        id: '03',
+        title: 'Stockholm, Handen',
+        address01: 'Träffgatan 2',
+        address02: '136 44 Handen',
+        kaNummer: '10068964',
+        latitude: '59.174834714437154', 
+        longitude: '18.162803884725093',
+    },
+    {
+        id: '04',
+        title: 'Stockholm, Kista',
+        address01: 'Trondheimsgatan 4',
+        address02: '164 30 Kista',
+        kaNummer: '10068964',
+        latitude: '59.410552738671726', 
+        longitude: '17.924108227064114',
+    },
+    {
+        id: '05',
+        title: 'Stockholm, Nynäshamn',
+        address01: 'Telivägen 2',
+        address02: '149 41 Nynäshamn',
+        kaNummer: '10068964',
+        latitude: '58.91273865868487', 
+        longitude: '17.956076298208444',
+    },
+    {
+        id: '06',
+        title: 'Stockholm, Skogås',
+        address01: 'Skogåstorget 13',
+        address02: '142 30 Skogås',
+        kaNummer: '10068964',
+        latitude: '59.21743217152233', 
+        longitude: '18.151687198220838',
+    },
+    {
+        id: '07',
+        title: 'Stockholm, Sundbyberg',
+        address01: 'Rissneleden 110',
+        address02: '174 48 Sundbyberg',
+        kaNummer: '10068964',
+        latitude: '59.380559720965586', 
+        longitude: '17.935144098227493',
+    },
+    {
+        id: '08',
+        title: 'Stockholm, Upplands Väsby',
+        address01: 'Släntvägen 4',
+        address02: '194 61 Upplands Väsby',
+        kaNummer: '10068964',
+        latitude: '59.239135429627716', 
+        longitude: '17.844839027057102',
+    },
+    {
+        id: '09',
+        title: 'Stockholm, Vällingby',
+        address01: 'Funäsgatan 8',
+        address02: '162 74 Vällingby',
+        kaNummer: '10068964',
+        latitude: '59.35331957801291', 
+        longitude: '17.88654289822644',
+    },
+    {
+        id: '10',
+        title: 'Stockholm, Älvsjö',
+        address01: 'Varuvägen 9',
+        address02: '125 30 Älvsjö',
+        kaNummer: '10068964',
+        latitude: '59.27163378476925', 
+        longitude: '18.006649969387805',
+    },
+    {
+        id: '11',
+        title: 'Uppsala',
+        address01: 'Valthornsvägen 3',
+        address02: '756 50  Uppsala',
+        kaNummer: '10068964',
+        latitude: '59.81105790736124', 
+        longitude: '17.6285704982452',
+    },
+    {
+        id: '12',
+        title: 'Eskilstuna',
+        address01: 'Kungsgatan 98',
+        address02: '632 21 Eskilstuna',
+        kaNummer: '10068795',
+        latitude: '59.38170765418033', 
+        longitude: '16.481069469392253',
+    },
+    {
+        id: '13',
+        title: 'Finspång',
+        address01: 'Vallonvägen 15',
+        address02: '612 30 Finspång',
+        kaNummer: '10068328',
+        latitude: '58.707675334948284', 
+        longitude: '15.77265542703545',
+    },
+    {
+        id: '14',
+        title: 'Katrineholm',
+        address01: 'Fredsgatan 17',
+        address02: '641 30 Katrineholm',
+        kaNummer: '10068795',
+        latitude: '58.99477561454356', 
+        longitude: '16.20634016937648',
+    },
+    {
+        id: '15',
+        title: 'Lidköping',
+        address01: 'Sockerbruksgatan 1',
+        address02: '531 40 Lidköping',
+        kaNummer: '10068330',
+        latitude: '58.504676037036276', 
+        longitude: '13.165769727027243',
+    },
+    {
+        id: '16',
+        title: 'Lindesberg',
+        address01: 'Smedjegatan 9',
+        address02: '711 30 Lindesberg',
+        kaNummer: '10068342',
+        latitude: '59.59460725200713', 
+        longitude: '15.225234027071652',
+    },
+    {
+        id: '17',
+        title: 'Linköping',
+        address01: 'Garnisonsvägen 20',
+        address02: '587 50 Linköping',
+        kaNummer: '10068328',
+        latitude: '58.39795294643234', 
+        longitude: '15.621188240516904',
+    }, 
+];
+
+
+const statistics = [
+    {
+        id: '01',
+        ImgUrl: images.iconSearch,
+        value: 53,
+        text: 'Lediga jobb just nu!',
+    },
+    {
+        id: '02',
+        ImgUrl: images.iconHeart,
+        value: 4887,
+        text: 'Har fått möjligheter via Miljonbemanning',
+    },
+    {
+        id: '03',
+        ImgUrl: images.iconChart,
+        value: 5483,
+        text: 'Väntar på nya möjligheter',
+    },
+];
+
+export default { departments, partners, locations, statistics };
