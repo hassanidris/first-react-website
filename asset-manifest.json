@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/first-react-website/static/css/main.4691db69.css",
-    "main.js": "/first-react-website/static/js/main.bc62ea2e.js",
+    "main.css": "/first-react-website/static/css/main.87638ad2.css",
+    "main.js": "/first-react-website/static/js/main.31e82e8f.js",
     "static/media/intro.mp4": "/first-react-website/static/media/intro.87b6b296c5e3ab2981c6.mp4",
     "static/media/girl.png": "/first-react-website/static/media/girl.2465391dbf8c249d8dec.png",
     "static/media/opportunitiesImg.png": "/first-react-website/static/media/opportunitiesImg.99d0549dd6c01458ffd4.png",
@@ -19,11 +19,11 @@
     "static/media/slick.ttf": "/first-react-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/first-react-website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/first-react-website/index.html",
-    "main.4691db69.css.map": "/first-react-website/static/css/main.4691db69.css.map",
-    "main.bc62ea2e.js.map": "/first-react-website/static/js/main.bc62ea2e.js.map"
+    "main.87638ad2.css.map": "/first-react-website/static/css/main.87638ad2.css.map",
+    "main.31e82e8f.js.map": "/first-react-website/static/js/main.31e82e8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4691db69.css",
-    "static/js/main.bc62ea2e.js"
+    "static/css/main.87638ad2.css",
+    "static/js/main.31e82e8f.js"
   ]
 }
