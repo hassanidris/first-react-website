@@ -4,6 +4,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 6rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: transparent;
+    
 
     &-logo {
         display: flex;
@@ -131,6 +136,11 @@
             }
         }
     }
+}
+
+.mb__navbar.active {
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 251, 251));
+
 }
 
 

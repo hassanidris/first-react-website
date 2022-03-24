@@ -9,8 +9,20 @@ import './Navbar.scss';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [navbar, setNavbar] = useState(false);
+
+  const changeBackground = () => {
+    if(window.scrollY >= 40) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  }
+
+  window.addEventListener('scroll', changeBackground);
+
   return (
-  <nav className='mb__navbar'>
+  <nav className={navbar ? 'mb__navbar active' : 'mb__navbar'}>
     <div className='mb__navbar-logo'>
       <img src={images.logo} alt='mb logo' />  
     </div>
